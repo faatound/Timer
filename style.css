@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+
+#wrapper {
+    padding: 100%;
+    border-radius: 30px;
+    background-color: rgb(7, 7, 7);
+}
+#chrono{
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+button{
+    font-size: 20px;
+    width: 115px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:not(:last-child) {
+    margin-right: 15px;
+}
+
+button:nth-child(2) {
+    background-color: #dfdfdf;
+}
+
+button:last-child{
+    background-color: #3a6eff;
+
+    color: white;
+}
